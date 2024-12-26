@@ -1,0 +1,127 @@
+
+.outerdiv {
+  background: url('./assets/bg1.jpg'); /* Relative to src/app */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+}
+.searchbar{
+  display:flex;
+  background-color: rgba(0,0,0,0.498);
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+  margin:10px;
+}
+.searchbar input{
+  width: 70%;
+  padding: 10px;
+  background-color: transparent;
+  border:none;
+  outline:none;
+  color:white;
+  font-size: 18px;
+  border-radius: 20px;
+  border:2px solid #ddd;
+}
+.searchbar button{
+  width:50px;
+  height: 50px;
+  background-color: #1d468c9b;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.searchbar button:hover {
+  background-color: #2f285a;
+}
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.row .section1{
+ background-color: rgba(0,0,0,0.406);
+ border-radius: 10px;
+ padding: 20px;
+ width: 40%;
+ margin: 10px;
+}
+.row .timediv{
+  background-color: rgba(0,0,0,0.406);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.time{
+  font-size: 50px;
+  color: rgb(248,255,186);
+}
+.section2{
+  background-color: rgba(0,0,0,0.7);
+  width:100%;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section21{
+  width: 45%;
+  display: flex;
+  justify-content: space-between ;
+  margin: 10px;
+}
+.weathericon{
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+.section11{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+.temp{
+  color: rgb(255,234,150);
+  font-size: 70px;
+}
+.temp span{
+  font-size: 30px;
+  color:white;
+}
+.city{
+  font-size: 40px;
+  color: rgb(221,221,221);
+}
+.weathertype{
+  font-size: 40px;
+  color:rgb(255,255,255);
+}
+.head1{
+  font-size: 15px;
+  color: white;
+}
+.head2{
+  font-size: 25px;
+  color: rgb(240,255,141);
+}
+.date {
+  font-size: 16px;
+  color: white;
+  margin-top: 5px;
+}
+
